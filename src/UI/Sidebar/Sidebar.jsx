@@ -1,4 +1,3 @@
-import { useState, useRef, useLayoutEffect } from "react";
 import classes from "./Sidebar.module.css";
 import SidebarItem from "./SidebarItem";
 import HomeIcon from "@material-ui/icons/Home";

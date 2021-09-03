@@ -30,7 +30,7 @@ const SidebarFooter = (props) => {
         <TwitterIcon />
       </SocialIconsContainer>
       <footer>
-        <a href="#">Contact us</a>
+        <a href="/">Contact us</a>
       </footer>
     </FooterContainer>
   );

@@ -1,6 +1,5 @@
-import { useState, useRef, useLayoutEffect } from "react";
 import styled from "styled-components";
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 const SidebarItemContainer = styled(NavLink)`
   text-decoration: none;
   color: #fff;
