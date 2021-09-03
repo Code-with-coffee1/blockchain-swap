@@ -1,0 +1,29 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 1200;
+  top: 0;
+  left: 0;
+  height: 64px;
+  background-color: #413c69;
+  width: 100%;
+  border-bottom: 2px solid #628395;
+}
+.nav-links {
+  align-items: center;
+}
+
+.nav-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 50px;
+  margin: auto 5vw;
+}

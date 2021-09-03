@@ -1,0 +1,27 @@
+.sidebar-container {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  height: -webkit-fill-available ;
+  width: 30%;
+  max-width: 250px;
+  background-color: #413c69;
+  left: -250px;
+  transition: all 0.3s ease-in-out;
+  padding-top: 80px;
+ 
+}
+@media (max-width: 768px){
+    .sidebar-container {
+        width: 60%;
+      }
+}
+
+
+.sidebar-open {
+  left: 0;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2000px 0px 0px 2000px rgba(0, 0, 0, 0.2);
+}
