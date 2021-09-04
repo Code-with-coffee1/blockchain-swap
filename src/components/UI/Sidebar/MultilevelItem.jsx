@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
-import SidebarItem from "./SidebarItem";
 import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
 const SidebarItemContainer = styled.div`
   cursor: pointer;
