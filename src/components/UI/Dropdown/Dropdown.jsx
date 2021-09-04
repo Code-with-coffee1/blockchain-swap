@@ -53,7 +53,7 @@ const ListItem = styled.li`
   cursor: pointer;
   margin: 5px auto;
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 15px;
   font-size: 1.2rem;
 
   background-color: #444444;
@@ -66,6 +66,7 @@ const ListItem = styled.li`
   & img {
     width: 20px;
     margin-right: 1ch;
+    height: 20px;
   }
 `;
 
