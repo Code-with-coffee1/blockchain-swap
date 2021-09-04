@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Navbar.module.css";
 import Hamburger from "./Hamburger";
-import { PrimaryBtn, SecondaryBtn } from "./NavButtons";
+import { PrimaryBtn } from "./NavButtons";
 import Dropdown from "../Dropdown/Dropdown";
 
 const dropdownOptions = [
