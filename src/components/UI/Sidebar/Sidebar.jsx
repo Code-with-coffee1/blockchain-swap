@@ -4,6 +4,7 @@ import HomeIcon from "@material-ui/icons/Home";
 import MonetizationOnIcon from "@material-ui/icons/MonetizationOn";
 import LocalShippingIcon from "@material-ui/icons/LocalShipping";
 import SidebarFooter from "./SidebarFooter";
+import MultilevelItem from "./MultilevelItem";
 
 const Sidebar = (props) => {
   return (
@@ -30,6 +31,37 @@ const Sidebar = (props) => {
             <LocalShippingIcon />
           </span>
           <h3>Farm</h3>
+        </SidebarItem>
+        <MultilevelItem title={"Dropdown"}>
+          <SidebarItem to="/about">
+            <span>
+              <MonetizationOnIcon />
+            </span>
+
+            <h3>About</h3>
+          </SidebarItem>
+          <SidebarItem to="/lorem">
+            <span>
+              <HomeIcon />
+            </span>
+
+            <h3>Lorem</h3>
+          </SidebarItem>
+          <SidebarItem to="/Ipsum">
+            <span>
+              <MonetizationOnIcon />
+            </span>
+
+            <h3>ipsum</h3>
+          </SidebarItem>
+        </MultilevelItem>
+
+        <SidebarItem to="/Dolret">
+          <span>
+            <MonetizationOnIcon />
+          </span>
+
+          <h3>Dolret</h3>
         </SidebarItem>
 
         <SidebarFooter />

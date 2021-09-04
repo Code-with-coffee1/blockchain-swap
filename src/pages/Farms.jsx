@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import FarmTable from "../components/Farms/FarmTable";
 
 const Farms = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+    console.log("Farms");
+  return (
+    <div>
+      <FarmTable />
+    </div>
+  );
+};
 
-export default Farms
+export default Farms;

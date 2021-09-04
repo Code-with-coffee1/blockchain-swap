@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import Navbar from "./UI/Navbar/Navbar";
-import Sidebar from "./UI/Sidebar/Sidebar";
+import Navbar from "./components/UI/Navbar/Navbar";
+import Sidebar from "./components/UI/Sidebar/Sidebar";
 import Home from "./pages/Home";
+import Farms from "./pages/Farms";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./styles.css";
@@ -16,7 +17,7 @@ const App = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/trade" component={Home} />
 
-        <Route exact path="/farms" component={Home} />
+        <Route exact path="/farm" component={Farms} />
       </Switch>
     </Router>
   );
