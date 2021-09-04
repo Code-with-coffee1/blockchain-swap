@@ -10,11 +10,13 @@
   left: 0;
   height: 64px;
   background-color: #413c69;
-  width: 100%;
+  width: -webkit-fill-available;
   border-bottom: 2px solid #628395;
 }
 .nav-links {
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-brand {
@@ -26,4 +28,13 @@
 .nav-logo img {
   width: 50px;
   margin: auto 5vw;
+
+}
+@media screen and (max-width: 768px) {
+  .nav-logo img {
+    width: 32px;
+    margin: auto 2ch;
+  
+  }
+  
 }

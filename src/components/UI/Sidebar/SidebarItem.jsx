@@ -29,6 +29,7 @@ const SidebarTitle = styled.div`
     display: flex;
     height: 100%;
     align-items: center;
+    
   }
   & h3 {
     font-size: 1rem;

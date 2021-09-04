@@ -36,7 +36,9 @@ const SidebarTitle = styled.div`
   }
   & span.icon {
     display: flex;
-    height: 100%;
+    flex-direction: column;
+    min-width: 30px;
+    justify-content: center;
     align-items: center;
   }
 
