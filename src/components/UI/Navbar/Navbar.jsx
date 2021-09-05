@@ -1,8 +1,10 @@
 import React from "react";
 import classes from "./Navbar.module.css";
 import Hamburger from "./Hamburger";
-import { PrimaryBtn } from "./NavButtons";
+import NavButton, { SecondaryBtn } from "./NavButton";
 import Dropdown from "../Dropdown/Dropdown";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWallet, faCog } from "@fortawesome/free-solid-svg-icons";
 
 const dropdownOptions = [
   {
@@ -31,8 +33,10 @@ const Navbar = (props) => {
 
       <div className={classes["nav-links"]}>
         <Dropdown options={[...dropdownOptions]} />
-
-        <PrimaryBtn>Connect Wallet</PrimaryBtn>
+        <SecondaryBtn>
+          <FontAwesomeIcon icon={faCog} />
+        </SecondaryBtn>
+        <NavButton icon={<FontAwesomeIcon icon={faWallet} />}>Connect Wallet</NavButton>
       </div>
     </nav>
   );
