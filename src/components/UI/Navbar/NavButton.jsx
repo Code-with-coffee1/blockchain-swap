@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
-import { PinDropSharp } from "@material-ui/icons";
 
 export const PrimaryBtn = styled.button`
   border: none;
