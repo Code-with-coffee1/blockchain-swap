@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 const SidebarItemContainer = styled(NavLink)`
   text-decoration: none;
-  color: ${(props) => props.color || "#512D6D"};
+  color: ${(props) => props.color || "#9276c2"};
   display: flex;
   border-left: 5px solid transparent;
   margin: 0 auto;
@@ -16,7 +16,7 @@ const SidebarItemContainer = styled(NavLink)`
     background-color: #EEEEEE;
   }
   &.active {
-    border-color: #512D6D;
+    border-color: #00C1D4;
     transition: all 0.3s ease-in-out;
   }
 `;

@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SidebarItemContainer = styled.div`
   cursor: pointer;
   text-decoration: none;
-  color: #512d6d;
+  color: #9276c2;
   display: flex;
   flex-direction: column;
   margin: 0 auto;

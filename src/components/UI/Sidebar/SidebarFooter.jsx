@@ -13,14 +13,14 @@ const FooterContainer = styled.div`
   & a {
 
     text-decoration: none;
-    color: #512D6D;
+    color: #9276c2;
     
   }
 `;
 const SocialIconsContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
-  color: #512D6D;
+  color: #9276c2;
 `;
 const SidebarFooter = (props) => {
   return (

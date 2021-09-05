@@ -26,18 +26,18 @@
 
 .menu-items::-webkit-scrollbar {
   max-width: 7px;
-  background-color: #512D6D;
+  background-color: #9276c2;
   transition: all 0.6s ease-in-out;
 }
 .menu-items::-webkit-scrollbar-thumb {
-  background-color: #512D6D;
+  background-color: #9276c2;
   border-radius: 10px;
 }
 .menu-items::-webkit-scrollbar-track {
-  background-color: #EEEEEE;
+  background-color: #eee;
 }
 .menu-items::-webkit-scrollbar-button {
-  background-color: #EEEEEE;
+  background-color: #eee;
   height: 0;
   overflow: hidden;
 }
