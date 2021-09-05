@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SidebarItemContainer = styled.div`
   cursor: pointer;
   text-decoration: none;
-  color: #fff;
+  color: #512d6d;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -18,11 +18,10 @@ const SidebarItemContainer = styled.div`
 const SidebarTitle = styled.div`
   display: flex;
   width: calc(100% - 15px);
-
   padding-left: 15px;
   &:hover {
     transition: all 0.3s ease-in-out;
-    background-color: #4a47a3;
+    background-color: #eee;
   }
 
   & span.dropdown-icon {
@@ -52,7 +51,7 @@ const DropdownMenu = styled.div`
   width: 100%;
   overflow: hidden;
   max-height: ${(props) => (props.isOpen ? "500px" : "0")};
-  background-color: #2a0944;
+  background-color: #F3F1F5;
   transition: max-height 0.5s ease-in-out;
 `;
 

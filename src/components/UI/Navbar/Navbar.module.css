@@ -9,9 +9,9 @@
   top: 0;
   left: 0;
   height: 64px;
-  background-color: #413c69;
+  background-color: #fff;
   width: -webkit-fill-available;
-  border-bottom: 2px solid #628395;
+  border-bottom: 2px solid #EEEEEE;
 }
 .nav-links {
   display: flex;

@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import {  NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const SidebarItemContainer = styled(NavLink)`
   text-decoration: none;
-  color: #fff;
+  color: ${(props) => props.color || "#512D6D"};
   display: flex;
   border-left: 5px solid transparent;
   margin: 0 auto;
@@ -12,33 +12,34 @@ const SidebarItemContainer = styled(NavLink)`
   margin-left: 0;
   transition: all 0.3s ease-in-out;
   &:hover {
-    ${"" /* border-color: #fff; */}
     transition: all 0.3s ease-in-out;
-    background-color: #4a47a3;
+    background-color: #EEEEEE;
   }
   &.active {
-    border-color: #93b5c6;
-  transition: all 0.3s ease-in-out;
-
+    border-color: #512D6D;
+    transition: all 0.3s ease-in-out;
   }
 `;
 
 const SidebarTitle = styled.div`
   display: flex;
-  & span {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    
-  }
+  align-items: center;
   & h3 {
     font-size: 1rem;
     margin-left: 10px;
   }
+  & h6 {
+    padding: 0 1ch;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
 `;
 const SidebarItem = (props) => {
   return (
-    <SidebarItemContainer exact={props.exact || false} to={props.to || "/"}>
+    <SidebarItemContainer color={props.color} exact={props.exact || false} to={props.to || "/"}>
       <SidebarTitle> {props.children}</SidebarTitle>
     </SidebarItemContainer>
   );

@@ -21,83 +21,86 @@ const Sidebar = (props) => {
           </SidebarItem>
           <MultilevelItem icon={FontIcons.faExchangeAlt} title="Trade">
             <SidebarItem exact={true} to="/exchange">
-              <h3>Exchange</h3>
+            <span className={classes.text}>
+              <h3>Simple Mode</h3>
+              <h6>User friendly way</h6>
+              </span>
             </SidebarItem>
             <SidebarItem exact={true} to="/liquidity">
-              <h3>Liquidity</h3>
-            </SidebarItem>
-            <SidebarItem exact={true} to="/lp_migration">
-              <h3>LP Migration</h3>
+            <span className={classes.text}>
+              <h3>Classic Mode</h3>
+              <h6>Familiar tools</h6>
+              </span>
             </SidebarItem>
           </MultilevelItem>
           <SidebarItem exact={true} to="/farms">
-          <span className={classes.icon}>
+            <span className={classes.icon}>
               <FontAwesomeIcon icon={FontIcons.faTruck} />
             </span>
+            <span className={classes.text}>
 
             <h3>Farms</h3>
+            </span>
           </SidebarItem>
           <SidebarItem exact={true} to="/pools">
-          <span className={classes.icon}>
+            <span className={classes.icon}>
               <FontAwesomeIcon icon={FontIcons.faGlassWhiskey} />
             </span>
 
             <h3>Pools</h3>
           </SidebarItem>
-          <SidebarItem exact={true} to="/prediction">
-          <span className={classes.icon}>
-              <FontAwesomeIcon icon={FontIcons.faMagic} />
-            </span>
 
-            <h3>Prediction</h3>
-          </SidebarItem>
           <SidebarItem exact={true} to="/lottery">
-          <span className={classes.icon}>
+            <span className={classes.icon}>
               <FontAwesomeIcon icon={FontIcons.faTicketAlt} />
             </span>
 
             <h3>Lottery</h3>
           </SidebarItem>
-          <SidebarItem exact={true} to="/collectibles">
-          <span className={classes.icon}>
-              <FontAwesomeIcon icon={FontIcons.faShapes} />
+          <SidebarItem exact={true} to="/nft_market">
+            <span className={classes.icon}>
+              <FontAwesomeIcon icon={FontIcons.faStore} />
             </span>
 
-            <h3>Collectibles</h3>
+            <h3>NFT Marketplace</h3>
           </SidebarItem>
-          <SidebarItem exact={true} to="/team_battle">
-          <span className={classes.icon}>
-              <FontAwesomeIcon icon={FontIcons.faTrophy} />
+          <SidebarItem exact={true} to="/multichain_swap">
+            <span className={classes.icon}>
+              <FontAwesomeIcon icon={FontIcons.faCoins} />
             </span>
 
-            <h3>Team Battle</h3>
+            <h3>Multichain SWAP</h3>
           </SidebarItem>
-          <MultilevelItem icon={FontIcons.faUsers} title="Teams & Profile">
-            <SidebarItem exact={true} to="/leaderboard">
-              <h3>Leaderboard</h3>
-            </SidebarItem>
-            <SidebarItem exact={true} to="/task_center">
-              <h3>Task Center</h3>
-            </SidebarItem>
-            <SidebarItem exact={true} to="/your_profile">
-              <h3>Your Profile</h3>
-            </SidebarItem>
-          </MultilevelItem>
+          <SidebarItem exact={true} to="/gamification">
+            <span className={classes.icon}>
+              <FontAwesomeIcon icon={FontIcons.faGamepad} />
+            </span>
+
+            <h3>Gamification</h3>
+          </SidebarItem>
+          <SidebarItem exact={true} to="/launchpad">
+            <span className={classes.icon}>
+              <FontAwesomeIcon icon={FontIcons.faFlag} />
+            </span>
+
+            <h3>Launchpad</h3>
+          </SidebarItem>
+          <SidebarItem exact={true} to="/vaults">
+          <span className={classes.icon}>
+              <FontAwesomeIcon icon={FontIcons.faBriefcase} />
+            </span>
+
+            <h3>Vaults</h3>
+          </SidebarItem>
 
           <SidebarItem exact={true} to="/info">
-          <span className={classes.icon}>
+            <span className={classes.icon}>
               <FontAwesomeIcon icon={FontIcons.faInfo} />
             </span>
 
             <h3>Info</h3>
           </SidebarItem>
-          <SidebarItem exact={true} to="/ifo">
-          <span className={classes.icon}>
-              <FontAwesomeIcon icon={FontIcons.faShoppingBag} />
-            </span>
 
-            <h3>IFO</h3>
-          </SidebarItem>
           <MultilevelItem icon={FontIcons.faEllipsisH} title="More">
             <SidebarItem exact={true} to="/contact">
               <h3>Contact</h3>

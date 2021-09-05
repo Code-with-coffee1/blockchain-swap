@@ -5,7 +5,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 const FooterContainer = styled.div`
   padding: 10px;
   margin-top: auto;
-  border-top: 1px solid #ccc;
+  border-top: 2px solid #eee;
   & footer {
     text-align: center;
     margin: 1rem 0;
@@ -13,14 +13,14 @@ const FooterContainer = styled.div`
   & a {
 
     text-decoration: none;
-    color: #eab9c9;
+    color: #512D6D;
     
   }
 `;
 const SocialIconsContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
-  color: #eab9c9;
+  color: #512D6D;
 `;
 const SidebarFooter = (props) => {
   return (
