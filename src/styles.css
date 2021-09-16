@@ -1,6 +1,16 @@
+:root {
+  --pink-light: #9276c2;
+  --pink-dark: #6c4b9a;
+  --grey-light: #F9F9F9;
+  --grey-dark: #c8c6c6;
+  --blue-light: #00c1d4;
+  --blue-dark: #02a3d4;
+
+}
+
 body {
   margin: 0px;
   padding: 0px;
   margin-top: 65px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }

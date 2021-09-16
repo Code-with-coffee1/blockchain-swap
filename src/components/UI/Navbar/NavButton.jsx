@@ -6,7 +6,7 @@ export const PrimaryBtn = styled.button`
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: #00c1d4;
+  background-color: var(--blue-light);
   color: #fff;
   padding: 8px 15px;
   font-size: 14px;

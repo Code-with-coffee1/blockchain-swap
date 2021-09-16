@@ -3,7 +3,7 @@ import styled from "styled-components";
 import ArrowDropDown from "@material-ui/icons/ArrowDropDown";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 const DropDownContainer = styled.div`
-  widht: 100%;
+  width: 160px;
 `;
 
 const DropDownHeader = styled.div`
@@ -39,6 +39,8 @@ const DropDownList = styled.ul`
   margin-top: 0;
   border-radius: 10px;
   border-top-left-radius: ${(props) => (props.isOpen ? "0px" : "10px")};
+  border-top-right-radius: ${(props) => (props.isOpen ? "0px" : "10px")};
+  width: 160px;
 
   background-color: #171717;
   max-height: ${(props) => (props.isOpen ? "200px" : "0")};
